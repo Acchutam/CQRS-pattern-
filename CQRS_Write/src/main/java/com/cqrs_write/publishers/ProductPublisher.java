@@ -1,7 +1,8 @@
 package com.cqrs_write.publishers;
 
 
-import com.cqrs_write.models.ProductEvent;
+
+import com.product_event.model.ProductEvent;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
